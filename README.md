@@ -1,4 +1,4 @@
-# Auto Compressor Plugin
+# Cum_pressor Plugin
 
 A dynamic range compressor audio plugin with automatic parameter adjustment.
 
