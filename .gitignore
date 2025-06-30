@@ -39,3 +39,38 @@
 
 # debug information files
 *.dwo
+
+echo "
+# JUCE specific
+Builds/*/DerivedData/
+Builds/*/.vs/
+Builds/*/x64/
+Builds/*/Debug/
+Builds/*/Release/
+JuceLibraryCode/
+
+# Visual Studio files
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+.vs/
+
+# Xcode files
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# Audio plugin formats
+*.vst3
+*.component
+*.au
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db" >> .gitignore
